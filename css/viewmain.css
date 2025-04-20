@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.Main_container .Section_Main_Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 110vh;
+    max-height: 500px;
+    margin-top: calc(100% - 90%);
+}
+
+
+.Main_container .Section_Main_Info 
+.Section_Main_Services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 40vh;
+}
+
+.Main_container .Section_Main_Info 
+.Section_Main_Services div img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.Main_container .Section_Main_Info 
+.Section_Main_Services .section_services{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid;
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.Main_container .Section_Main_Info 
+.Section_Main_Services .section_services:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(26, 5, 54);
+}
+
+
+.Main_container .Section_Main_Info 
+.Section_Main_Services .section_services
+.section_services_info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Service Modelo 3d */
+
+.Main_container .Section_Services_Model{
+    display: flex;
+    height: 130vh;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    padding-top: calc(100% - 90%);
+    gap: 10px;
+}
+
+.Main_container .Section_Services_Model
+.Services_Model_Title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.Main_container .Section_Services_Model
+.Services_Model_Parrafo{
+    padding-bottom: 30px;
+}
+
+.Main_container .Section_Services_Model
+.Section_Services_Model_Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.Main_container .Section_Services_Model
+.Section_Services_Model_Container .img{
+    gap: 10px;
+}
+
+.Main_container .Section_Services_Model
+.Section_Services_Model_Container .img img{
+    width: 50vh;
+    height: 50vh;
+}
+
+
+/* Service Programas */
+
+.Main_container .Section_Services_Programas{
+    display: flex;
+    height: 130vh;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    padding-top: calc(100% - 90%);
+    gap: 10px;
+}
+
+
+.Main_container .Section_Services_Programas
+.Services_Programas_Title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.Main_container .Section_Services_Programas
+.Services_Programas_Parrafo{
+    padding-bottom: 30px;
+}
+
+.Main_container .Section_Services_Programas 
+.Section_Services_Programas_Container{
+    display: flex;
+    gap: 10px;
+}
+
+.Main_container .Section_Services_Programas 
+.Section_Services_Programas_Container .img img{
+    width: 50vh;
+    height: 50vh;
+    padding-bottom: 20px;
+}
+
+/* Services lemguages */
+.Main_container .Section_Services_Lenguajes{
+    display: flex;
+    height: 130vh;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    padding-top: calc(100% - 90%);
+    gap: 10px;
+}
+
+.Main_container .Section_Services_Lenguajes
+.Services_Lenguajes_Title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.Main_container .Section_Services_Lenguajes
+.Services_Lenguajes_Parrafo{
+    padding-bottom: 30px;
+}
+
+.Main_container .Section_Services_Lenguajes
+.Section_Services_Lenguajes_Container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.Main_container .Section_Services_Lenguajes
+.Section_Services_Lenguajes_Container .img img{
+    width: 50vh;
+    height: 50vh;
+    padding-bottom: 20px;
+}

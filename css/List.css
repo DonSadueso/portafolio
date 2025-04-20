@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Barra de navegacion */
+.Container_Header{
+    height: 10vh;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    color: aliceblue;
+}
+
+.Container_Header .Header_Nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.Container_Header .Header_Nav .Header_Nav_Logo{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.Container_Header .Header_Nav 
+.Header_Nav_Logo .Header_Nav_Img{
+    height: 50px;
+    width: 50px;
+}
+
+.Container_Header .Header_Nav 
+.Header_Nav_List .Nav_List{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.Container_Header .Header_Nav 
+.Header_Nav_List .Nav_List a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.Container_Header .Header_Nav 
+.Header_Nav_List .Nav_List a:hover{
+    color: #24C6DC;
+}
+
+.Container_Header .Header_Nav 
+.Header_Nav_List .Nav_List .Header_Nav_Button{
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1);
+    padding:10px 20px;
+    border:1px solid #24C6DC;
+    border-radius:30px;
+    background:transparent;
+    cursor:pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#fff;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
