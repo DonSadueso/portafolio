@@ -69,3 +69,10 @@
     -webkit-transition:.5s;
     transition:.5s;
 }
+
+.Container_Header .Header_Nav
+.Header_Nav_Logo .Header_Nav_Logo_Container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

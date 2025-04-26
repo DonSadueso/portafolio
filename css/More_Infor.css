@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    padding-top: 7%;
+}
+
+.Main_Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px 0 40px;
+    padding: 20px;
+}
+
+.Main_Container .Section_Main_Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+    /*position: relative;
+    left: calc(100% - 75%);*/
+}
+
+.Main_Container .Section_Main_Info
+.Section_Main_Info_Title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Info
+.Section_Main_Info_Mision{
+    margin-bottom: 20px;
+}
+
+.Main_Container .Section_Main_Definicion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.Main_Container .Section_Main_Definicion
+.Section_Main_Info_Title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Modelo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.Main_Container .Section_Main_Modelo
+.Section_Main_Info_Title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Modelo
+.Section_Main_Modelo_Img{
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.Main_Container .Section_Main_Informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.Main_Container .Section_Main_Informacion
+.Section_Main_Info_Title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Informacion
+.Section_Main_Analisis_Img{
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.Main_Container .Section_Main_Analisis{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.Main_Container .Section_Main_Analisis
+.Section_Main_Info_Title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Analisis
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 95%;
+}
+
+
+.Main_Container .Section_Main_Analisis
+.div .Title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Main_Container .Section_Main_Analisis_W{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.Main_Container .Section_Main_Analisis_W
+.Weltanschauung .Title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.Main_Container .Section_Main_Analisis_W
+.Weltanschauung .parrafo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
